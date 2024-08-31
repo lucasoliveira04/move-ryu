@@ -1,0 +1,53 @@
+﻿# Arquivos e pastas gerados pelo Unity
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+
+# Arquivos de usuário e configurações do editor
+*.csproj
+*.suo
+*.user
+*.userprefs
+*.pidb
+*.suo
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.sqlite
+*.tmp
+
+# Configurações de IDE
+.vscode/
+.idea/
+
+# Pastas de cache e dados temporários
+*.bak
+*.swp
+*.swo
+*.swn
+*.ncb
+*.suo
+*.user
+*.userprefs
+*.pdb
+
+# Arquivos de build de editor
+*.apk
+*.aab
+*.xcodeproj
+*.xcworkspace
+*.xcuserstate
+*.xcuserdatad
+*.dSYM/
+*.xcdebugger/
+
+# Pasta do projeto Unity
+*.unityproj
+*.tmproj
+*.sublime-project
+*.sublime-workspace
+*.sublime-workspace*
