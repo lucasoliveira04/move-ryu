@@ -5,10 +5,10 @@ using UnityEngine;
 public class NewBehaviourScript : MonoBehaviour
 {
     [SerializeField] private FixedJoystick joystick;
-    [SerializeField] private float velocidadeMovimento = 5f;
+    [SerializeField] private float velocidadeMovimento = 50f;
     [SerializeField] private AudioClip somSubindo;
     [SerializeField] private AudioClip somDescendo;
-
+    
     private Rigidbody2D rb;
     private AudioSource audioSourceSubindo;
     private AudioSource audioSourceDescendo;
