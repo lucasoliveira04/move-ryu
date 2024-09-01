@@ -5,7 +5,7 @@ using UnityEngine;
 public class MoviJoystick : MonoBehaviour
 {
     [SerializeField] private FixedJoystick joystick;
-    [SerializeField] private float velocidadeMovimento = 5f;
+    [SerializeField] private float velocidadeMovimento = 30f;
     
     private Rigidbody2D rb;
     
