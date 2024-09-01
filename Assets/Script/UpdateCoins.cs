@@ -13,7 +13,7 @@ public class UpdateCoins : MonoBehaviour
     {
         currentScore += increment;
 
-        if (currentScore <= 5)
+        if (currentScore <= 20)
         {
             myTMPText.alignment = TextAlignmentOptions.TopLeft;
             myTMPText.text = currentScore.ToString();
