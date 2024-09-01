@@ -2,10 +2,10 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Colllider : MonoBehaviour
+public class MoviJoystick : MonoBehaviour
 {
     [SerializeField] private FixedJoystick joystick;
-    [SerializeField] private float velocidadeMovimento = 50f;
+    [SerializeField] private float velocidadeMovimento = 5f;
     
     private Rigidbody2D rb;
     
@@ -13,6 +13,7 @@ public class Colllider : MonoBehaviour
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+        rb.constraints = RigidbodyConstraints2D.FreezeRotation;
     }
 
     // Update is called once per frame
